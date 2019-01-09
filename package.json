@@ -5,6 +5,7 @@
         "autoprefixer": "^9.2.0",
         "babel-preset-env": "^1.7.0",
         "del": "^3.0.0",
+        "gh-pages": "^2.0.1",
         "gulp": "^3.9.1",
         "gulp-babel": "^8.0.0",
         "gulp-cli": "^2.0.1",
@@ -27,7 +28,8 @@
     "scripts": {
         "start": "serve src",
         "lint": "standard --fix",
-        "build": "gulp"
+        "build": "gulp",
+        "deploy": "gh-pages -d dist"
     },
     "standard": {
         "ignore": [
